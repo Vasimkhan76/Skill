@@ -6,11 +6,24 @@
   <meta name="viewport" content="width=device-width">
   <title>instagram</title>
   <style>
-    li{
+  .skill  li{margin:20px 0;
+      padding:10px;
+    }
+    .bar{background:#353b48;
+         display:block;
+         height:20px;
+         border:1px solid rgba(0,0,0,3);
+         border-radius:10px;
+         overflow:hidden;
+         box-shadow:0 1px 3px;
+         transition:all 0.3s cubic-bezier;
+    
+      
       
     }
-    hover:li{
-      
+    .bar span{height:20px;
+              float:left;
+              background:linear-gradient(135deg)
       
     }
   </style>
@@ -18,7 +31,14 @@
 
 </head>
 <body>
-    
+    <div class="skill">
+      <h1>
+        My Skill
+      </h1>
+      <li>
+        <h2>Html</h2><span class="bar"><span class="html"> </span></span></span>
+      </li>
+    </div>
 </body>
 
 </html>
